@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex: 1;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.subscription {
+    flex: 1;
+    padding: 10px;
+    text-align: left; /* Adjust alignment as needed */
+}
+
+h1 {
+    color: #333;
+}
+
+#email-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#subscribe-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#ip-addresses {
+    margin-top: 20px;
+    font-size: 14px;
+}
